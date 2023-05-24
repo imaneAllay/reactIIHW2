@@ -1,14 +1,20 @@
-.App {
+.square {
   
   width:500px;
   height:500px;
   margin:100px;
-  background: linear-gradient(90deg, #c29024 0%, rgb(33, 121, 9) 35%, rgb(255, 179, 0) 100%);
+  background: linear-gradient(90deg, #c29024 0%, rgb(173, 202, 165) 35%, rgb(255, 179, 0) 100%);
   display:flex;
   justify-content:center;
   align-items:center;
   font-size:24px;
   font-weight:bold;
+}
+
+.App{
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .App-logo {
